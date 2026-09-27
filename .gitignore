@@ -1,0 +1,23 @@
+# Gradle / Kotlin
+.gradle/
+.kotlin/
+build/
+app/build/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.externalNativeBuild
+.cxx/
+captures/
+
+# 本地配置（含 SDK 路径等，不入库）
+local.properties
+
+# OS
+.DS_Store
+
+# adb / uiautomator dump 残留（UI 快照可能含订阅 token，切勿提交）
+/*.xml
+/*.png
+/*.uix
